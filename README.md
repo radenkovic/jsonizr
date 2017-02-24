@@ -1,6 +1,9 @@
 # JSONizr
 REST API Documentation made simple. JSONizr creates documentation from json files! 😍
 
+![alt text](https://s14.postimg.org/5t44p1pg1/jsonizer.png "Jsonizer")
+
+
 Create `json` files and copy-paste, describe endpoints, and JSONizr will create a nice website for you! Runs on Node/Express but you don't need any skill (except typing json).
 
 ## Install
@@ -49,10 +52,7 @@ Here's sample endpoint description, will add better documentation later.
 }
 ```
 
-And here's the result:
-
-
-![alt text](https://s14.postimg.org/5t44p1pg1/jsonizer.png "Jsonizer")
+Result is as shown on intro image! Yay!  
 
 
 ## Short Info
