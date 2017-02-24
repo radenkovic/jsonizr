@@ -1,0 +1,28 @@
+{
+  "title": "GET /api/template",
+  "description": "Write your description here.",
+  "method": "GET",
+  "input": {
+    "user_id": 1,
+    "full_name": "Dan"
+  },
+  "output": {
+    "full_name": "Dan",
+    "date_of_birth": "04-20-1989",
+    "github": "https://github.com/radenkovic",
+    "true": 1
+  },
+  "params": [
+    {
+    "name": "user_id",
+    "required": true,
+    "description": "User is important."
+    },
+    {
+      "name": "full_name",
+      "required": false,
+      "description": "Not required, but search is faster."
+
+    }
+  ]
+}

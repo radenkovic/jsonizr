@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1= title
+  p= description
+
+  h2 Input and Output
+
+  div.wrapper
+    pre
+      h5 Sample Input
+      !{input}
+
+
+    pre
+      h5 Sample Output
+      !{output}
+
+  h2 Params
+
+  each param in params
+    div.param
+      strong= param.name + " "
+      span
+        - if (param.required)
+          span required
+        - else
+          span Optional
+      p= param.description

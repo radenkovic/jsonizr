@@ -1,0 +1,22 @@
+{
+  "name": "jsonizr",
+  "version": "0.0.0",
+  "author": "Dan Radenkovic",
+  "scripts": {
+    "start": "node ./bin/www",
+    "development": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "json-markup": "^1.1.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
