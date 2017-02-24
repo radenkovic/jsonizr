@@ -50,8 +50,9 @@ Here's sample endpoint description, will add better documentation later.
 ```
 
 And here's the result:
-![alt text](http://tinypic.com/r/2n8zekw/9)
 
+
+![alt text](https://s14.postimg.org/5t44p1pg1/jsonizer.png "Jsonizer")
 
 
 ## Short Info
